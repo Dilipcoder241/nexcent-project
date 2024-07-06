@@ -20,7 +20,7 @@ export default function Home() {
         <h1 className="font-semibold text-xl md:text-2xl lg:text-4xl mx-auto text-center w-full lg:w-2/5">Manage your entire community in a single system</h1>
         <p className="text-center mt-2 text-[#717171]">Who is Nextcent suitable for?</p>
 
-        <div className="members flex justify-around mt-5 flex-wrap">
+        <div className="members flex gap-5  justify-around mt-5 flex-wrap">
           <div className="member-box w-72 flex flex-col items-center px-6 py-8 shadow-md rounded-lg">
             <svg width="65" height="56" viewBox="0 0 65 56" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path style={{fill:`${mode=="ligth"?"#E8F5E9":"#66BB69"}`}} d="M65 38C65 47.9411 56.9411 56 47 56L20 56C17.2386 56 15 53.7614 15 51L15 17C15 11.4772 19.4772 7 25 7L60 7C62.7614 7 65 9.23858 65 12L65 38Z" fill="#E8F5E9" />

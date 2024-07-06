@@ -20,7 +20,7 @@ export default function Navbar() {
   
 
   return (
-    <div className="navebar w-full pl-[5%] py-6 flex justify-between items-center bg-[#F5F7FA] sticky top-0 z-50" id={mode}>
+    <div className="navebar w-full pl-[5%] py-6 flex justify-between items-center bg-[#F5F7FA] sticky top-0 z-50 shadow-md" id={mode}>
         <div className="logo">
           {mode=="light"?<svg width="155" height="24" viewBox="0 0 155 24" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M18.7863 13.134L13.3954 22.3669L8.00448 13.134H18.7863ZM20.2305 12.3088H6.55444L13.3954 24L20.2305 12.3088Z" fill="#263238" />
