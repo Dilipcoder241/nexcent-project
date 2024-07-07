@@ -54,7 +54,7 @@ export default function Navbar() {
         </svg>
           } 
         </div>
-        <div className="links gap-14 hidden lg:flex">
+        <div className="links gap-10 xl:gap-14 hidden lg:flex">
           <a href="" className="hover:underline hover:decoration-[#28CB8B] hover:text-[#28CB8B] duration-500">Home</a>
           <a href="" className="hover:underline hover:decoration-[#28CB8B] hover:text-[#28CB8B] duration-500">Service</a>
           <a href="" className="hover:underline hover:decoration-[#28CB8B] hover:text-[#28CB8B] duration-500">Feature</a>
@@ -69,8 +69,8 @@ export default function Navbar() {
             {mode=="light"?<img src="./night-mode.png" alt="" className='w-8 h-8 object-cover'/>:
             <img src="./brightness.png" alt="" className='w-8 h-8 object-cover'/>}
           </button>
-          <button className='lg:hidden block'>
-            <img src="./menu.png" alt="" className='w-4 h-4'/>
+          <button className='lg:hidden block pr-5'>
+            <img src="./menu.png" alt="" className='w-4 h-4' style={{filter:`${mode=="dark"?"invert(1)":"invert(0)"}`}}/>
           </button>
         </div>
       </div>
